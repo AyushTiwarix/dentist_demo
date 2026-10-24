@@ -1,3 +1,4 @@
+'use client';
 import Link from 'next/link';
 
 const PHONE = '(404) 752-7777';
@@ -197,7 +198,7 @@ export default function Footer() {
       <div className="footer-bottom">
         <div className="container">
           <div className="footer-bottom-inner">
-            <p>© {new Date().getFullYear()} M.L.K. Dental Center · Dr. Mordena Sullen, DMD · All Rights Reserved</p>
+            <p>© 2026 M.L.K. Dental Center · Dr. Mordena Sullen, DMD · All Rights Reserved</p>
             <div className="footer-bottom-links">
               <Link href="/privacy">Privacy Policy</Link>
               <Link href="/disclaimer">Disclaimer</Link>

@@ -1,3 +1,4 @@
+'use client';
 import Link from 'next/link';
 
 // Before/After placeholder gallery — replace image src with real patient photos

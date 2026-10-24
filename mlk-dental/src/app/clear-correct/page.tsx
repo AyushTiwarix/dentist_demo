@@ -125,48 +125,6 @@ export default function ClearCorrectPage() {
       </section>
 
       <BeforeAfterGallery limit={3} />
-
-      <style jsx>{`
-        .breadcrumb-bar { background: var(--cream); border-bottom: 1px solid var(--border); padding: 0.75rem 0; }
-        .breadcrumb-list { display: flex; align-items: center; gap: 0.5rem; font-size: 0.8rem; color: var(--text-light); list-style: none; }
-        .breadcrumb-list a { color: var(--emerald); text-decoration: none; }
-        .service-page-inner { display: grid; grid-template-columns: 1fr 380px; gap: 3.5rem; align-items: start; }
-        .service-content h2 { margin: 2rem 0 1rem; font-size: 1.5rem; color: var(--navy); }
-        .service-content h2:first-child { margin-top: 0; }
-        .service-content p { color: var(--text-mid); line-height: 1.8; }
-        .two-col-highlights { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1.25rem 0; }
-        .highlight-card { border-radius: var(--radius-md); padding: 1.25rem; }
-        .highlight-card h4 { margin-bottom: 0.75rem; font-size: 0.9rem; }
-        .highlight-card ul { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
-        .highlight-card ul li { font-size: 0.85rem; }
-        .highlight-card--green { background: rgba(11,107,80,0.06); border: 1px solid rgba(11,107,80,0.2); }
-        .highlight-card--green h4 { color: var(--emerald); }
-        .highlight-card--green ul li { color: var(--text-mid); }
-        .highlight-card--gray { background: var(--cream); border: 1px solid var(--border); }
-        .highlight-card--gray h4 { color: var(--text-mid); }
-        .highlight-card--gray ul li { color: var(--text-light); }
-        .process-steps { display: flex; flex-direction: column; gap: 1rem; padding: 0; margin: 1.25rem 0; list-style: none; }
-        .process-step { display: flex; gap: 1.25rem; align-items: flex-start; }
-        .step-num { width: 40px; height: 40px; flex-shrink: 0; background: linear-gradient(135deg, var(--emerald), var(--emerald-dark)); color: white; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 0.8rem; }
-        .step-title { font-weight: 600; color: var(--text-dark); margin-bottom: 0.2rem; }
-        .step-desc { font-size: 0.875rem; color: var(--text-light); line-height: 1.6; }
-        .faq-list { display: flex; flex-direction: column; gap: 0.5rem; margin: 1rem 0; }
-        .faq-item { border: 1px solid var(--border); border-radius: var(--radius-sm); overflow: hidden; }
-        .faq-question { padding: 1rem 1.25rem; font-weight: 600; font-size: 0.9rem; color: var(--text-dark); cursor: pointer; list-style: none; }
-        .faq-question::-webkit-details-marker { display: none; }
-        .faq-item[open] .faq-question { color: var(--emerald); border-bottom: 1px solid var(--border); }
-        .faq-answer { padding: 1rem 1.25rem; font-size: 0.875rem; color: var(--text-mid); line-height: 1.7; }
-        .doctor-trust-block { display: flex; align-items: flex-start; gap: 1.25rem; background: var(--cream); border-radius: var(--radius-md); padding: 1.5rem; margin: 2rem 0; }
-        .trust-avatar { width: 48px; height: 48px; background: var(--emerald); color: white; font-weight: 700; font-size: 0.85rem; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
-        .trust-quote { font-style: italic; color: var(--text-mid); font-size: 0.9rem; line-height: 1.7; margin: 0; }
-        .trust-quote cite { display: block; font-style: normal; font-weight: 600; color: var(--emerald); margin-top: 0.6rem; font-size: 0.8rem; }
-        .sidebar-sticky { position: sticky; top: 100px; display: flex; flex-direction: column; gap: 1rem; }
-        .sidebar-contact-alt { text-align: center; padding: 1rem; background: var(--cream); border-radius: var(--radius-md); }
-        .sidebar-contact-alt p { font-size: 0.85rem; color: var(--text-light); margin-bottom: 0.5rem; }
-        .sidebar-phone { display: inline-flex; align-items: center; gap: 0.5rem; color: var(--emerald); font-weight: 700; font-size: 1.1rem; text-decoration: none; }
-        .sidebar-hours { font-size: 0.75rem; color: var(--text-light); margin-top: 0.25rem !important; }
-        @media (max-width: 1100px) { .service-page-inner { grid-template-columns: 1fr; } .sidebar-sticky { position: static; } .two-col-highlights { grid-template-columns: 1fr; } }
-      `}</style>
     </>
   );
 }

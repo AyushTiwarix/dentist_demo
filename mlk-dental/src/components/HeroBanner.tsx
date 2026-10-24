@@ -1,3 +1,4 @@
+'use client';
 import Link from 'next/link';
 
 const MAPS_URL = 'https://www.google.com/maps/place/M+L+King+Dental+Center/@33.7547337,-84.426468,17z/data=!4m8!3m7!1s0x88f50359608c5a61:0x6ebf1772bd1afc0c!8m2!3d33.7547293!4d-84.4238931!9m1!1b1!16s%2Fg%2F11dx8p76cc?entry=ttu&g_ep=EgoyMDI2MTAxOS4wIKXMDSoASAFQAw%3D%3D';

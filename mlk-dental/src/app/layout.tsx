@@ -75,30 +75,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Header />
         <main id="main-content">{children}</main>
         <Footer />
-
-        <style jsx global>{`
-          .skip-link {
-            position: absolute;
-            left: -9999px;
-            top: auto;
-            width: 1px;
-            height: 1px;
-            overflow: hidden;
-          }
-          .skip-link:focus {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: auto;
-            height: auto;
-            padding: 0.75rem 1.5rem;
-            background: var(--emerald);
-            color: white;
-            font-weight: 600;
-            z-index: 9999;
-            text-decoration: none;
-          }
-        `}</style>
       </body>
     </html>
   );
